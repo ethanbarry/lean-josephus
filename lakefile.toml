@@ -1,0 +1,14 @@
+name = "josephus"
+version = "0.1.0"
+defaultTargets = ["josephus"]
+
+[[lean_lib]]
+name = "Josephus"
+
+[[lean_exe]]
+name = "josephus"
+root = "Main"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
